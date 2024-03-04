@@ -21,12 +21,15 @@ if day > 0 and day <=31:
 else:
     validDate = False
 
-if price > 0 :
-    b.get_latest_price('USD')
-    difference =  price - b;
-if difference > 0:
-    print(f"Your profit is: {difference} ")
-elif difference == 0:
-    print(f"You have no profit")
+if price > 0  and validDate and validMonth and validYear:
+    b = BtcConverter()
+    latest_price = b.get_latest_price('USD')
+    difference =  price - latest_price
+    if difference > 0:
+        print(f"Your profit is: {difference} ")
+    elif difference == 0:
+        print(f"You have no profit")
+    else:
+        print(f"Your loss is {difference}")
 else:
-    print(f"Your loss is {difference}")
+    print("Invalid date.")
