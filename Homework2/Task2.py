@@ -9,3 +9,4 @@ if a > 0 and b > 0:
         print( a + " is not the multiple of " + b)
 else:
     print("Invalid input.")
+    
