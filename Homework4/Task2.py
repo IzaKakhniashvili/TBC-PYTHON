@@ -17,3 +17,5 @@ if n.isdigit(): #will check if input is integer.
         print("Please enter a value of n between 1 and 30.")
 else:
     print("Enter integer.")
+    
+

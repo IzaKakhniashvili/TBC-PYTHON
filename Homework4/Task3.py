@@ -1,5 +1,6 @@
 n = input("Enter number: ")
 
+
 if n.isdigit():
     n = int(n)
     if n > 0:
@@ -10,3 +11,7 @@ if n.isdigit():
         print("Invalid input. Enter positive integer.")
 else:
     print("Invalid input. Enter integer.") 
+    
+    
+    
+    

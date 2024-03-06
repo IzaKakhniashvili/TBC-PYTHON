@@ -1,5 +1,6 @@
 import random
 
+
 n = input("Enter the number of players: ")
 
 if n.isdigit():
@@ -13,3 +14,4 @@ if n.isdigit():
         print("Number of players should be postive.")
 else:
     print("Input should be integer.")
+    

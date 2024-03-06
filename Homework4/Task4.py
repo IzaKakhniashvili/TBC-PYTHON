@@ -4,6 +4,7 @@ n = input("Enter number: ")
 x = 0
 lastN = 1
 
+
 if n.isdigit():
     n = int(n)
     if n >= 0 and n <= 30:
@@ -21,4 +22,5 @@ if n.isdigit():
         print("n should be between 0 and 30.")
 else:
     print("Input should be an integer.")
+            
             
