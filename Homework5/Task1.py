@@ -19,4 +19,3 @@ if n.isdigit():
 else:
     print("Input should be an integer.")      
                      
-                    
