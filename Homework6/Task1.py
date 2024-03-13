@@ -7,4 +7,4 @@ while i < 10:
         j+=1
     print()
     i += 1
-     
+    
