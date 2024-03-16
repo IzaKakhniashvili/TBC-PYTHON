@@ -1,7 +1,7 @@
 import random
 
 
-n = (input("Enter n: "))
+n = input("Enter n: ")
 
 _max = 0
 if n.isdigit(): #will check if input is integer.
