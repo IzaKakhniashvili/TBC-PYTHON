@@ -1,0 +1,5 @@
+Nino,Meat,3,20
+Giorgi,Sugar,5,5
+Ani,Salt,3,2
+Gigi,Apple,2,3
+Ana,Banana,6,3
