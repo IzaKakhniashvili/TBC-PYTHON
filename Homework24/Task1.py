@@ -29,11 +29,11 @@ def markets_to_go(ingredients, markets_content):
 
 
 def main():
-    meals_content = read_file("/Users/izakakhniashvili/Desktop/python/TBC-PYTHON/meals.json")
-    markets_content = read_file("/Users/izakakhniashvili/Desktop/python/TBC-PYTHON/markets.json")
+    meals_content = read_file("meals.json")
+    markets_content = read_file("markets.json")
     meal = (input("Enter the meal you want to prepare: ")).lower()
     ingredients = ingredients_needed(meal, meals_content)
-    markets = str(markets_to_go(ingredients, markets_content))
+    markets = markets_to_go(ingredients, markets_content)
     
     print(f"You should go to {markets} to make {meal}.")
 
